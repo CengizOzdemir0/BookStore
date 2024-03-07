@@ -11,10 +11,12 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
+import com.bookstore.base.dto.BaseDto;
+
 @Data
 @Entity
 @Table(schema = "book", name = "order")
-public class Order {
+public class Order extends BaseDto {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
