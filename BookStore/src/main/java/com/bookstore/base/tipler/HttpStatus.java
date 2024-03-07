@@ -3,6 +3,11 @@ package com.bookstore.base.tipler;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
+/**
+ * @author Cengiz ÖZDEMİR
+ * @date 2024-03-07T11:22:00.007Z
+ */
+
 @RequiredArgsConstructor
 @Getter
 public enum HttpStatus {

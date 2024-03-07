@@ -5,6 +5,11 @@ import lombok.Getter;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+/**
+ * @author Cengiz ÖZDEMİR
+ * @date 2024-03-07T11:22:00.007Z
+ */
+
 @AllArgsConstructor
 @Getter
 @JsonFormat(shape = JsonFormat.Shape.OBJECT)

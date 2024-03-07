@@ -14,6 +14,11 @@ import org.springframework.http.ResponseEntity;
 import com.bookstore.base.dto.BaseDto;
 import com.bookstore.base.tipler.Mesaj;
 
+/**
+ * @author Cengiz ÖZDEMİR
+ * @date 2024-03-07T11:22:00.007Z
+ */
+
 @Slf4j
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ResponseHelper {

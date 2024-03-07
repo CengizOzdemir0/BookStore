@@ -14,6 +14,11 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
+/**
+ * @author Cengiz ÖZDEMİR
+ * @date 2024-03-07T11:22:00.007Z
+ */
+
 @Configuration
 @RequiredArgsConstructor
 public class ObjectMapperConfig {

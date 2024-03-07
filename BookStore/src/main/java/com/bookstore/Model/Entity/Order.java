@@ -12,7 +12,10 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 import com.bookstore.base.dto.BaseDto;
-
+/**
+ * @author Cengiz ÖZDEMİR
+ * @date 2024-03-07T11:22:00.007Z
+ */
 @Data
 @Entity
 @Table(schema = "book", name = "order")

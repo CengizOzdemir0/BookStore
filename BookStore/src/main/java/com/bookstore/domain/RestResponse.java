@@ -6,9 +6,6 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
-
 import com.bookstore.base.dto.BaseDto;
 import com.bookstore.base.dto.RestMesajDTO;
 import com.bookstore.base.tipler.Dil;
@@ -19,6 +16,11 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+/**
+ * @author Cengiz ÖZDEMİR
+ * @date 2024-03-07T11:22:00.007Z
+ */
 
 @Data
 @Slf4j
